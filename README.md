@@ -1,6 +1,8 @@
 # HuffmanLab
 The Huffman program allows a user to compress a desired file by first reading form the text-file they wish to compress, then encoding each letter in order to produce a file that is a compressed version of the file that was read in.
 
+# Storage Class was coded by my professor, otherwise all code was done by me
+
 In order to use the Huffman program, all you need is to type in a pre-existing text file as an input. There isn't a need to have an empty pre-existing file for the output, as the program can make one on the fly.
 
 This Huffman compress function is implemented by the usage of a hashmap which has characters as keys and Node pointers as its values. By reading through the text file line by line, the program sees which characters (letters) are new and which has been accounted for, and increments its weight in the Node.
